@@ -1,3 +1,5 @@
+Setup And Configuration
+
 - pip install django
 - django-admin --version
 - django-admin startproject <project_name>
@@ -11,3 +13,7 @@
 - pip3 install django-allauth
 - python3 manage.py makemigrations
 - python3 manage.py migrate
+
+
+Making an Order
+
