@@ -56,7 +56,7 @@
 
       <!-- Brand -->
       <a class="navbar-brand waves-effect" href="/">
-        <strong class="blue-text">MDB</strong>
+        <strong class="blue-text">DJANGO</strong>
       </a>
 
       <!-- Collapse -->
@@ -81,7 +81,7 @@
          
             {% if user.is_authenticated %}
             <li class="nav-item">
-                <a class="nav-link waves-effect">
+                <a href="{% url 'core:order-summary' %}" class="nav-link waves-effect">
                 {% if request.user|cart_item_count != 0 %}
                   <span class="badge red z-depth-1 mr-1"> {{ request.user|cart_item_count }} </span>
                 {% endif %}
