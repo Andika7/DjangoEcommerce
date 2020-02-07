@@ -13,7 +13,6 @@ Setup And Configuration
 - pip3 install django-allauth
 - python3 manage.py makemigrations
 - python3 manage.py migrate
-
-
-Making an Order
+- pip3 install django-countries
+- pip3 install django-crispy-forms
 
